@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/project-spidey/static/css/main.af1e11dc.css",
+    "main.js": "/project-spidey/static/js/main.74ce0b1c.js",
+    "static/media/spidey.png": "/project-spidey/static/media/spidey.e87b8c2124108c2f5a67.png",
+    "index.html": "/project-spidey/index.html",
+    "main.af1e11dc.css.map": "/project-spidey/static/css/main.af1e11dc.css.map",
+    "main.74ce0b1c.js.map": "/project-spidey/static/js/main.74ce0b1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af1e11dc.css",
+    "static/js/main.74ce0b1c.js"
+  ]
+}
