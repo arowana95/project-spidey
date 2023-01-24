@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: indigo;
+}
+
+#spidey {
+    height: 500px;
+    width: 500px;
+    background-image: url("spidey.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    animation: hang 3s infinite;
+}
+
+@keyframes hang { 
+    
+    0% { top: 0px; } 
+    50% { top: -100px; } 
+    100% { top: 0px; } 
+}
+
+#arrow {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid aliceblue;
+    margin: 0 auto;
+    position: relative;
+    animation: hang 3s infinite;
+  }
+  
+
+#baloon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: aliceblue;
+    height: 80px;
+    max-width: fit-content;
+    border-radius: 50px;
+    padding: 50px;
+    position: relative;
+    animation: hang 3s infinite;
+}
+
+#pun {
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
